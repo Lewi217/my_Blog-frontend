@@ -1,0 +1,56 @@
+/* NavigationBar.css */
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 40px;
+    border-bottom: 2px solid rgba(47,84,235,0.2);
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.Container img {
+    width: 50px;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin: auto 0px;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 15px;
+}
+
+.nav-link:hover {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 6px;
+}
+
+.nav-link.active-link {
+    background-color: pink;
+    color: #333;
+}
